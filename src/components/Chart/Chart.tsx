@@ -8,12 +8,12 @@ export const Chart: React.FC = React.memo(() => {
   return (
       <>
         <InputChartMenu 
-          asix='x'
+          axis='X'
           value={months} 
           setValue={setMonths}
         />
         <InputChartMenu
-          asix='y' 
+          axis='Y' 
           value={valuesByMonths} 
           setValue={setValuesByMonths}
         />
