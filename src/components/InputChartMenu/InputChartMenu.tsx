@@ -12,8 +12,6 @@ export const InputChartMenu: React.FC<Props> = React.memo(({axis, value, setValu
       event.currentTarget.value 
       ? setValue(event.currentTarget.value.split(',')) 
       : setValue([]);
-      
-      console.log(value)
     } 
   }
 
@@ -21,7 +19,6 @@ export const InputChartMenu: React.FC<Props> = React.memo(({axis, value, setValu
     event.target.value 
       ? setValue(event.target.value.split(',')) 
       : setValue([]);
-      console.log(value)
   }
 
     return (
