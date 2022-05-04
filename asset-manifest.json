@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/backendless-tt/static/css/main.f4763b2f.css",
+    "main.js": "/backendless-tt/static/js/main.61181fe4.js",
+    "static/js/787.8aa18c6f.chunk.js": "/backendless-tt/static/js/787.8aa18c6f.chunk.js",
+    "index.html": "/backendless-tt/index.html",
+    "main.f4763b2f.css.map": "/backendless-tt/static/css/main.f4763b2f.css.map",
+    "main.61181fe4.js.map": "/backendless-tt/static/js/main.61181fe4.js.map",
+    "787.8aa18c6f.chunk.js.map": "/backendless-tt/static/js/787.8aa18c6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4763b2f.css",
+    "static/js/main.61181fe4.js"
+  ]
+}
