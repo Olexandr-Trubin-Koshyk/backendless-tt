@@ -1,4 +1,5 @@
 import React from "react"
+import './InputChartMenu.css'
 
 interface Props {
   axis: 'X' | 'Y'; 
@@ -22,7 +23,7 @@ export const InputChartMenu: React.FC<Props> = React.memo(({axis, value, setValu
   }
 
     return (
-      <div className="inputMenu">
+      <label className="inputMenu">
         <p className="inputMenu__title">
           {`${axis} axis labels:`}
         </p>
@@ -32,6 +33,6 @@ export const InputChartMenu: React.FC<Props> = React.memo(({axis, value, setValu
           onBlur={handleBlur}
           defaultValue={value.join(', ')}
         />
-      </div>
+      </label>
     )
 })
