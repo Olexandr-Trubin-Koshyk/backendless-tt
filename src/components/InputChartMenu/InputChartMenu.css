@@ -1,0 +1,10 @@
+.inputMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputMenu__months,
+.inputMenu__valuesByMonths {
+  width: 50%;
+}
