@@ -13,6 +13,7 @@ import {
 } from "chart.js";
 import { Bar, Line} from "react-chartjs-2";
 import React from "react";
+import './ChartGraphics.css'
 
 Chart.register(
   LineController, 
